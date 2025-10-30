@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TheLastOne</string>
+    <string name="tab_explore">Explore</string>
+    <string name="tab_mytrips">MyTrips</string>
+    <string name="tab_friends">Friends</string>
+    <string name="tab_saved">Saved</string>
+    <string name="tab_profile">Profile</string>
+</resources>
