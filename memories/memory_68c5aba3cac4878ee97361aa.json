@@ -1,0 +1,14 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  }
+]

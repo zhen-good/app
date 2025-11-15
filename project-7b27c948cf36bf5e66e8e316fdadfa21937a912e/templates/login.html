@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登入 - 智慧旅遊</title>
+</head>
+<body>
+  <h2>登入智慧旅遊平台</h2>
+  <form id="loginForm">
+  <input type="email" id="username" placeholder="Email" required />
+  <input type="password" id="password" placeholder="密碼" required />
+  <button type="submit">登入</button>
+</form>
+<p id="status"></p>
+
+<script>
+  document.getElementById("loginForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("username").value;
+    const password = document.getElementById("password").value;
+
+    const res = await fetch("/login", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password })
+    });
+
+    const data = await res.json();
+
+    if (res.ok) {
+      localStorage.setItem("user_id", data.user_id); // 儲存登入者 ID
+      window.location.href = data.redirect; // ✅ 導頁到對應聊天室
+    } else {
+      document.getElementById("status").innerText = data.detail || "登入失敗";
+    }
+  });
+</script>
+
+
+
+
+
+</body>
+</html>

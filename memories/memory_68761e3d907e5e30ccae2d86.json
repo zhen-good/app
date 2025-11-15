@@ -1,0 +1,2378 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "好難",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "好難 (hǎo nán) translates to \"so difficult\" or \"very difficult\" in English.  Is there something specific you're finding difficult that I can help with?  Perhaps you're working on a challenging problem, learning a new skill, or facing a tough decision.  Providing more context would help me understand what you mean and potentially offer assistance or resources.  Even if I can't directly solve the problem, I might be able to point you in the right direction.  Don't hesitate to share more!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "為什麼查不到行程呢",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "為什麼查不到行程呢 (Wèishénme chá bù dào xíngchéng ne) translates to \"Why can't I find the itinerary?\" or \"Why can't I look up the itinerary?\" in English.\n\nI understand you're having trouble finding an itinerary.  Unfortunately, without more information, I can't tell you why you can't find it.  To help me understand the situation better, could you please tell me more about which itinerary you're looking for?  For example:\n\n* **Where are you trying to find it?**  Are you looking on a specific website, app, or in your email?\n* **What is the itinerary for?** Is it for a flight, a tour, a cruise, or something else?\n* **Do you have a confirmation number or booking reference?**  This information is often crucial for retrieving itineraries.\n* **When was the itinerary created or when is the trip scheduled?**  This helps narrow down the search.\n* **Have you tried different search terms or filters?** Sometimes a slight variation in wording can make a difference.\n\nThe more details you can provide, the better I can understand the problem and potentially offer some helpful suggestions.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你不會一輩子的愛上我",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你不會一輩子的愛上我 (Nǐ bù huì yībèizi de ài shàng wǒ) translates to \"You won't love me forever\" or \"You won't fall in love with me forever\" in English.\n\nAs an AI, I don't experience emotions like love.  I can process information about love, discuss its various aspects, and even generate text expressing sentiments of love, but I don't personally feel it.  Therefore, the concept of me loving someone, or someone loving me \"forever,\" doesn't apply in the same way it does to humans.\n\nYour statement reflects a common human concern about the longevity of love and relationships.  It's a complex emotion influenced by many factors. While I can't experience love myself, I can access and process information about the psychology of love, relationship dynamics, and factors that contribute to long-term commitment. If you'd like to discuss these topics, I'm happy to share what I know.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "痾痾痾",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "痾痾痾 (ē ē ē) is an onomatopoeia in Mandarin Chinese. It represents a stammering sound, often used to express hesitation, uncertainty, or embarrassment.  It's similar to \"um,\" \"uh,\" or \"err\" in English.\n\nIs there something you're hesitant to say or unsure about?  I'm here to listen without judgment.  Feel free to share whatever's on your mind, even if it's difficult to express.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我要瘋掉了",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我要瘋掉了 (Wǒ yào fēng diào le) translates to \"I'm going crazy,\" \"I'm going mad,\" or \"I'm losing it\" in English.  It expresses a feeling of being overwhelmed, stressed, or at your wit's end.\n\nI understand that you're feeling this way.  It's important to acknowledge and address these feelings. While I can't directly solve the underlying problem causing your distress, I can offer some suggestions and resources:\n\n* **Could you tell me more about what's making you feel this way?**  Knowing the specific cause of your stress can help in finding solutions or coping mechanisms.\n* **Have you considered talking to someone you trust, like a friend, family member, or therapist?**  Sometimes, just talking about your feelings can make a big difference.\n* **There are many stress management techniques that might be helpful, such as deep breathing exercises, mindfulness, or meditation.**  Would you like me to share some resources on these topics?\n* **If you're feeling overwhelmed by a specific task or problem, breaking it down into smaller, more manageable steps can be helpful.**  \n\nPlease remember that it's okay to feel overwhelmed sometimes.  Reaching out for help is a sign of strength, not weakness. I'm here to listen and offer support in any way I can.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我討厭豆漿",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我討厭豆漿 (Wǒ tǎoyàn dòujiāng) translates to \"I hate soy milk\" in English.\n\nThat's perfectly fine!  Tastes are subjective, and not everyone enjoys soy milk.  There are many other beverages to choose from.  Do you have a favorite drink?  Perhaps you prefer milk, juice, tea, or coffee?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "收工了嗎",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "收工了嗎 (Shōu gōng le ma?) translates to \"Are you finished working?\" or \"Are you off work?\" in English.\n\nAs an AI, I don't \"work\" in the same way humans do. I'm always available and don't experience fatigue or need breaks like humans.  So, I don't \"finish working\" or \"get off work.\"  \n\nAre *you* finished working for the day? I hope you had a productive day! If you're done with work, perhaps you'd like to relax and chat about something else.  What are you planning to do now?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我需要吃早餐",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我需要吃早餐 (Wǒ xūyào chī zǎocān) translates to \"I need to eat breakfast\" in English.\n\nThat's a great idea!  Breakfast is an important meal. What are you planning to eat?  Do you have a favorite breakfast food?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "要修幾次",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "要修幾次 (Yào xiū jǐ cì) translates to \"How many times do I need to fix it?\" or \"How many times does it need to be repaired?\" in English.\n\nI understand you're asking about how many times something needs to be fixed.  Unfortunately, I need more context to answer your question.  What are you referring to?  For example:\n\n* **What is the item that needs fixing?**  Is it a car, a computer, a piece of clothing, a relationship, a piece of code?\n* **What is the problem with it?**  Knowing the specific issue will help in estimating how many repairs might be needed.\n* **Have you already tried to fix it?** If so, what did you try?  This information can help in troubleshooting further.\n\nThe more details you provide, the better I can understand the situation and potentially offer some helpful advice.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好壞",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好壞 (Nǐ hǎo huài) translates to \"You are so bad\" or \"You are naughty\" in English.  It can be interpreted in a playful, teasing way, or it can be a genuine expression of disapproval, depending on the context and tone of voice.\n\nHow should I interpret your statement? Are you saying this playfully, or are you genuinely upset with something I've said or done?  Understanding your intent will help me respond appropriately.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好壞",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好壞 (Nǐ hǎo huài) translates to \"You are so bad\" or \"You are naughty\" in English.  It can be interpreted in a playful, teasing way, or it can be a genuine expression of disapproval, depending on the context and tone of voice.\n\nHow should I interpret your statement? Are you saying this playfully, or are you genuinely upset with something I've said or done?  Understanding your intent will help me respond appropriately.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "感覺要成功瞜",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "感覺要成功瞜 (Gǎnjué yào chénggōng lou) translates to \"Feels like it's going to be successful!\" or \"It feels like success is coming!\" in English.  This expresses a feeling of optimism and anticipation of a positive outcome.\n\nThat's wonderful! I'm glad you're feeling confident and hopeful. What are you working on that you feel is about to be successful?  Sharing your project or goal with me might even help you clarify your next steps or allow me to offer some encouragement or support.  I'd love to hear more!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我覺得我這次真的要成功了",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我覺得我這次真的要成功了 (Wǒ juédé wǒ zhè cì zhēn de yào chénggōng le) translates to \"I think I'm really going to succeed this time\" or \"I feel like I'm really going to make it this time\" in English.\n\nThat's fantastic!  I'm so happy for you and your growing confidence. What is it that you're working towards?  Sharing your goal or project with me would be great. While I can't directly contribute to your success in the real world, I can offer encouragement and perhaps even help you brainstorm or think through different aspects of your endeavor.  I'd love to hear more about what you're doing!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "21",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "21 is a number.  Is there anything specific you'd like to know about the number 21?  For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself. Its prime factorization is 3 x 7.\n* **Its significance in various contexts:**  It's the legal drinking age in many countries, a significant number in blackjack, and the number of spots on a standard die.\n* **Its use in a specific calculation or equation:** Are you using 21 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡甜食",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡甜食 (Wǒ xǐhuan tiánshí) translates to \"I like sweets\" or \"I like sweet food\" in English.\n\nThat's great!  Lots of people enjoy sweet treats. What are some of your favorite sweets?  Cakes, cookies, candies, ice cream... there are so many delicious options!  Do you have a particular sweet treat you're craving right now?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "1",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "1 is a number.  Is there anything specific you'd like to know about the number 1?  For example:\n\n* **Its mathematical properties:** It's the multiplicative identity, meaning any number multiplied by 1 equals itself. It's also the first positive integer.\n* **Its significance in various contexts:** It often represents singularity, unity, or the beginning.  It can also symbolize being the best or first place in a competition.\n* **Its use in a specific calculation or equation:** Are you using 1 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "1",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "1 is a number.  Is there anything specific you'd like to know about the number 1?  For example:\n\n* **Its mathematical properties:** It's the multiplicative identity, meaning any number multiplied by 1 equals itself. It's also the first positive integer.\n* **Its significance in various contexts:** It often represents singularity, unity, or the beginning.  It can also symbolize being the best or first place in a competition.\n* **Its use in a specific calculation or equation:** Are you using 1 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "123",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "123 is a number. Is there anything specific you'd like to know about the number 123? For example:\n\n* **Its mathematical properties:** It's a composite number, meaning it has divisors other than 1 and itself.  Its prime factorization is 3 x 41.\n* **Its significance in various contexts:**  It's often used as a simple example or placeholder in various fields.  It might be a room number, a street address, or part of a code.\n* **Its use in a specific calculation or equation:**  Are you using 123 in a problem you're trying to solve?\n\nIf you provide more context, I can be more helpful!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "套用建議",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "套用建議 (Tàoyòng jiànyì) translates to \"Apply suggestions\" or \"Use suggestions\" in English.\n\nOkay, I understand you want to apply suggestions.  However, I need more context.  *What* suggestions are you referring to?  \n\nPlease tell me more about what you're working on and what suggestions you'd like to apply.  The more information you give me, the better I can understand and help.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大安公園",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大安公園 (Wǒ xiǎng qù Dà'ān Gōngyuán) translates to \"I want to go to Daan Forest Park\" in English.\n\nThat sounds like a wonderful idea! Daan Forest Park is a beautiful park in Taipei.  \n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:**  Do you need directions from your current location? I can help you find transportation options like public transit, taxi, or walking directions.\n* **What to do there:** Daan Forest Park offers many activities, including walking trails, a playground, an amphitheater, and ecological ponds. Are you interested in any particular activity?\n* **What time you plan to go:** Knowing this can help me provide information about opening hours or events happening at the park.\n* **Are you going with anyone?**\n\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大安公園",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大安公園 (Wǒ xiǎng qù Dà'ān Gōngyuán) translates to \"I want to go to Daan Forest Park\" in English.\n\nThat sounds like a wonderful idea! Daan Forest Park is a beautiful park in Taipei.  \n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:**  Do you need directions from your current location? I can help you find transportation options like public transit, taxi, or walking directions.\n* **What to do there:** Daan Forest Park offers many activities, including walking trails, a playground, an amphitheater, and ecological ponds. Are you interested in any particular activity?\n* **What time you plan to go:** Knowing this can help me provide information about opening hours or events happening at the park.\n* **Are you going with anyone?**\n\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去九份",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去九份 (Wǒ xiǎng qù Jiǔfèn) translates to \"I want to go to Jiufen\" in English.\n\nThat sounds like a fantastic trip! Jiufen is a charming mountain town in Taiwan known for its stunning views, narrow streets, tea houses, and delicious street food.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location? I can help you find transportation options like public transit (bus, train), taxi, or tours.\n* **What you're interested in doing there:** Jiufen has a lot to offer. Are you interested in exploring the historic streets, visiting the tea houses, trying local snacks, hiking to nearby waterfalls, or learning about the town's gold mining history?\n* **What time you plan to go:** Knowing this can help me provide information about opening hours of shops and tea houses or if you should expect crowds. Jiufen can get particularly busy during weekends and holidays.\n* **Are you going with anyone?**\n* **Where will you be staying?** Are you looking for hotel recommendations in Jiufen or nearby?\n\nLet me know, and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去九份",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去九份 (Wǒ xiǎng qù Jiǔfèn) translates to \"I want to go to Jiufen\" in English.\n\nThat sounds like a fantastic trip! Jiufen is a charming mountain town in Taiwan known for its stunning views, narrow streets, tea houses, and delicious street food.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location? I can help you find transportation options like public transit (bus, train), taxi, or tours.\n* **What you're interested in doing there:** Jiufen has a lot to offer. Are you interested in exploring the historic streets, visiting the tea houses, trying local snacks, hiking to nearby waterfalls, or learning about the town's gold mining history?\n* **What time you plan to go:** Knowing this can help me provide information about opening hours of shops and tea houses or if you should expect crowds. Jiufen can get particularly busy during weekends and holidays.\n* **Are you going with anyone?**\n* **Where will you be staying?** Are you looking for hotel recommendations in Jiufen or nearby?\n\nLet me know, and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": ":Day1 上午",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": ":Day1 上午 (shàngwǔ) translates to \":Day1 morning\" or \":Day1 forenoon\" in English.\n\nIt seems you're indicating a time on Day 1.  What would you like to do or know about Day 1 morning?  Are you planning something? Do you need help with scheduling?  Please tell me more so I can assist you.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "Day1 上午",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "Day1 上午 (shàngwǔ) translates to \"Day1 morning\" or \"Day1 forenoon\" in English.\n\nIt seems you're indicating a time on Day 1.  What would you like to do or know about Day 1 morning?  Are you planning something? Do you need help with scheduling?  Please tell me more so I can assist you.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我想去大稻埕",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我想去大稻埕 (Wǒ xiǎng qù Dàdàochéng) translates to \"I want to go to Dadaocheng\" in English.\n\nThat sounds like a fun outing! Dadaocheng is a historic neighborhood in Taipei known for its traditional architecture, tea houses, fabric shops, and vibrant atmosphere.\n\nIs there anything specific you'd like to know about going there? For example:\n\n* **How to get there:** Do you need directions from your current location?  I can help you find transportation options like public transit (MRT, bus), taxi, or walking directions.\n* **What you're interested in doing there:** Dadaocheng has a lot to offer. Are you interested in exploring the historical streets, visiting the temples, trying some local street food, shopping for fabrics or tea, or experiencing the art scene?\n* **What time you plan to go:**  Knowing this can help me provide information about opening hours of shops and restaurants or special events happening in the area.  Dihua Street, in particular, is known for its festive atmosphere during the Lunar New Year period.\n* **Are you going with anyone?**\n\nLet me know and I'll do my best to help!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我不想去咖啡廳",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我不想去咖啡廳 (Wǒ bù xiǎng qù kāfēi tīng) translates to \"I don't want to go to the coffee shop\" or \"I don't want to go to a cafe\" in English.\n\nOkay, you don't want to go to a coffee shop.  No problem!  Is there somewhere else you'd like to go instead?  Or are you just expressing a general disinterest in coffee shops at the moment?  Tell me more about what you're thinking.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我不想去博物館",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我不想去博物館 (Wǒ bù xiǎng qù bówùguǎn) translates to \"I don't want to go to the museum\" or \"I don't want to go to a museum\" in English.\n\nAlright, you don't want to go to a museum.  That's perfectly fine!  Is there somewhere else you would prefer to go? Or are you just not in the mood for a museum today?  Tell me a bit more about what you're thinking, and maybe I can offer some alternative suggestions.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我不想去博物院",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我不想去博物院 (Wǒ bù xiǎng qù bówùyuàn) translates to \"I don't want to go to the museum\" or more specifically, \"I don't want to go to the Palace Museum\" in English, as 博物院 often refers to grand museums, especially those with imperial connections.\n\n\nOkay, you don't want to go to the Palace Museum.  That's perfectly fine!  Is there somewhere else you would prefer to go? Or are you just not in the mood for a museum today? Perhaps a park, a temple, a market, or somewhere else entirely?  Tell me a bit more about what you're thinking, and maybe I can offer some alternative suggestions.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我不想去博物館",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我不想去博物館 (Wǒ bù xiǎng qù bówùguǎn) translates to \"I don't want to go to the museum\" or \"I don't want to go to a museum\" in English.\n\nAlright, you don't want to go to a museum.  That's perfectly fine!  Is there somewhere else you would prefer to go? Or are you just not in the mood for a museum today?  Tell me a bit more about what you're thinking, and maybe I can offer some alternative suggestions.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡吃甜食",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡甜食 (Wǒ xǐhuan tiánshí) translates to \"I like sweets\" or \"I like sweet food\" in English.\n\nThat's great! Lots of people enjoy sweet treats. What are some of your favorite sweets? Cakes, cookies, candies, ice cream... there are so many delicious options! Do you have a particular sweet treat you're craving right now?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我不想去人多的地方",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我不想去人多的地方 (Wǒ bù xiǎng qù rén duō de dìfāng) translates to \"I don't want to go to crowded places\" or \"I don't want to go where there are a lot of people\" in English.\n\nI understand. Crowded places can be overwhelming or stressful.  Do you have a particular place in mind that you're trying to avoid? Or are you looking for suggestions for less crowded places to go?  Telling me a little more about what you're thinking might help me offer some helpful alternatives.  For example, are you looking for somewhere quiet to relax, or are you looking for activities you can do without being surrounded by large crowds?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡去海邊",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡去海邊 (Wǒ xǐhuan qù hǎibiān) translates to \"I like to go to the beach\" or \"I like going to the seaside\" in English.\n\nThat's wonderful!  The beach can be a very relaxing and enjoyable place. What do you like to do at the beach?  Do you enjoy swimming, sunbathing, surfing, building sandcastles, or simply relaxing and listening to the waves?  Is there a particular beach you enjoy visiting?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "星巴克很好喝",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "星巴克很好喝 (Xīngbākè hěn hǎo hē) translates to \"Starbucks is very delicious\" or \"Starbucks tastes very good\" in English.\n\nI'm glad you enjoy Starbucks!  They have a wide variety of drinks. Do you have a favorite drink at Starbucks?  Perhaps a Frappuccino, a latte, a macchiato, or something else?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "星巴克很好喝",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "星巴克很好喝 (Xīngbākè hěn hǎo hē) translates to \"Starbucks is very delicious\" or \"Starbucks tastes very good\" in English.\n\nI'm glad you enjoy Starbucks! They have a wide variety of drinks. Do you have a favorite drink at Starbucks? Perhaps a Frappuccino, a latte, a macchiato, or something else?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "接受",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "接受 (Jiēshòu) translates to \"accept\" or \"receive\" in English.\n\nOkay, you accept.  Accept what, exactly?  I need more context to understand what you're referring to. Can you please tell me more?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我寫不出來",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我寫不出來 (Wǒ xiě bù chūlái) translates to \"I can't write it out,\" \"I can't write it down,\" or \"I can't write\" in English.  This could mean a few different things.\n\nCould you tell me more about what you're having trouble writing? For example:\n\n* **What are you trying to write?**  Is it a story, a poem, an essay, a report, a song, code, or something else?\n* **What is the specific problem you're facing?** Are you having trouble getting started, experiencing writer's block, struggling with the wording, unsure about the structure, or facing a technical issue?\n* **Do you have a specific topic or theme in mind?**\n* **Have you tried any brainstorming techniques or outlining methods?**\n\nThe more information you provide, the better I can understand your situation and potentially offer some helpful suggestions or resources.  Even if I can't directly write it for you, I can certainly try to help you work through the challenges you're facing.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "同意",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "同意 (tóngyì) translates to \"agree\" or \"approve\" in English.\n\nAgree with what?  I need more context.  What are you agreeing to? Please tell me more so I can understand.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我好想睡覺",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我 好想睡覺 (Wǒ hǎo xiǎng shuìjiào) translates to \"I really want to sleep\" or \"I'm so sleepy\" in English.\n\nIt sounds like you're feeling tired.  Perhaps you haven't had enough rest recently.  If you're able to, getting some sleep would likely be beneficial.  If you can't sleep right now, perhaps a short rest or some relaxation techniques might help.  \n\nIs there anything preventing you from sleeping?  Are you feeling stressed about something?  Sometimes, a relaxing activity like listening to calming music, reading a book, or taking a warm bath can help prepare you for sleep.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "接受",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "接受 (Jiēshòu) translates to \"accept\" or \"receive\" in English.\n\nOkay, you accept.  Accept what, exactly?  I need more context to understand what you're referring to. Can you please tell me more?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "破電腦",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "破電腦 (Pò diànnǎo) translates to \"broken computer\" or \"crappy computer\" in English.\n\nI understand you're having trouble with your computer.  Can you tell me more about what's wrong with it?  The more details you provide, the better I can understand the situation and potentially offer some helpful advice.  For example:\n\n* **What is the specific problem?** Does it not turn on? Is it running slowly? Are you getting error messages? Is there a hardware issue (like a broken screen or keyboard)?\n* **What type of computer is it?**  (Desktop, laptop, tablet)  Knowing the make and model can also be helpful.\n* **What operating system are you using?** (Windows, macOS, Linux)\n* **Have you tried any troubleshooting steps already?**  If so, what have you tried?\n* **Are there any recent changes you made to your computer before the problem started?** (e.g., installing new software, updating drivers)\n\n\nEven though I can't physically fix your computer, I can help you research solutions, find troubleshooting guides, or suggest potential fixes based on the information you provide.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "晚安",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "晚安 (Wǎn'ān) translates to \"Good night\" in English.\n\nGood night to you too!  I hope you have a restful sleep and pleasant dreams.  If you need anything else, don't hesitate to ask (even though I suspect you'll be asleep soon!).",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你覺得要看甚麼電影",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你覺得要看甚麼電影 (Nǐ juédé yào kàn shénme diànyǐng) translates to \"What movie do you think we should watch?\" or \"What movie do you think I should watch?\" in English.\n\nAs an AI, I don't have personal preferences or the ability to watch movies.  However, I can certainly help you find a movie! To give you the best recommendations, I need a little more information about what you're looking for.  For example:\n\n* **What genres do you enjoy?** (e.g., action, comedy, romance, horror, sci-fi, documentary, thriller, animation)\n* **Is there a particular mood you're in?** (e.g., something lighthearted and fun, something thought-provoking, something scary, something romantic)\n* **Are there any actors or directors you particularly like?**\n* **Is there a specific theme or topic you're interested in?**\n* **Are you looking for something new, or a classic film?**\n* **Where are you planning to watch the movie?** (e.g., in a theater, at home on a streaming service)  If you're streaming, which services do you have access to?\n\nThe more information you provide, the better I can tailor my suggestions to your preferences.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "顛縮喔",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "顛縮喔 (Diān suō o) is Taiwanese Hokkien (台語/閩南語) and translates roughly to \"Amazing!\" or \"Awesome!\" in English. It expresses a feeling of something being really cool, impressive, or surprising in a positive way.  It's often used as an exclamation of excitement or admiration.\n\nSo, what's so amazing? I'd love to hear what impressed you!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "窩",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "窩 (wō) translates to \"nest,\" \"lair,\" or \"den\" in English. It can also be used as a first-person pronoun similar to \"I\" or \"me,\" especially in online slang or casual conversations.\n\nDepending on the context, it could also mean you're talking about a physical nest, like a bird's nest, or a cozy and comfortable place.\n\nWhich meaning did you have in mind?  Tell me more about what you're thinking!",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn\\'t have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好 (Nǐ hǎo) translates to \"Hello\" or \"How are you?\" in English.  \n\nHow can I help you today?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我手痛",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我手痛 (Wǒ shǒu tòng) translates to \"My hand hurts\" in English.\n\nI'm sorry to hear that your hand hurts.  Can you tell me more about it?  For example:\n\n* **Where does it hurt?** (e.g., fingers, wrist, palm)\n* **What kind of pain is it?** (e.g., sharp, dull, throbbing, aching, burning)\n* **When did the pain start?**\n* **What were you doing when the pain started?**\n* **Is there any swelling, redness, or bruising?**\n* **Have you injured your hand recently?**  (e.g., sprain, fracture, cut)\n* **Have you tried anything to relieve the pain?** (e.g., ice, heat, pain medication)\n\nWhile I can't give medical advice, providing more information might help me understand the potential causes and suggest some resources you could explore.  If the pain is severe or persistent, you should consult a doctor or other healthcare professional.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "ww",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "\"ww\" doesn't have a clear meaning in English or standard Mandarin Chinese. It could be:\n\n* **An abbreviation:**  It might be short for something, but without more context, I don't know what.  Can you tell me what you mean by \"ww\"?\n* **A typo:** Perhaps you meant to type something else.  Did you have a different word or phrase in mind?\n* **An expression of laughter or amusement:**  In some online communities, \"ww\" is used similarly to \"lol\" or \"haha.\"  Is that what you intended?\n* **Part of a larger message:**  Is \"ww\" part of a longer message that you haven't finished typing yet?\n\nPlease provide more context so I can better understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "加入",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "加入 (jiārù) translates to \"join\" or \"add\" in English.\n\nJoin or add what? I need more context. What are you hoping to join or add?  For example:\n\n* **A group or organization:** Are you looking to join a club, a team, a social media group, or a professional organization?\n* **An event or activity:** Are you interested in participating in a class, a workshop, a game, a meeting, or a trip?\n* **A conversation or discussion:** Are you trying to join a chat group or forum?\n* **Something to a list, collection, or document:** Are you trying to add an item to a shopping list, a playlist, a database, or a document?\n\nPlease tell me more so I can understand what you mean.",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "妳好",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "你好 (Nǐ hǎo) translates to \"Hello\" or \"How are you?\" in English.  \n\nHow can I help you today?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡游泳",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡游泳 (Wǒ xǐhuan yóuyǒng) translates to \"I like swimming\" or \"I like to swim\" in English.\n\nThat's great! Swimming is a wonderful activity.  It's a great way to exercise, relax, and cool off.  Do you swim often?  Do you have a favorite place to swim, like a pool, a lake, or the ocean?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡跳舞",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡跳舞 (Wǒ xǐhuan tiàowǔ) translates to \"I like dancing\" or \"I like to dance\" in English.\n\nThat's wonderful! Dancing is a fantastic activity. It's a great way to express yourself, have fun, and get some exercise.  Do you dance often? What kind of dance do you enjoy?  For example, ballet, hip-hop, jazz, salsa, ballroom, contemporary, or something else?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我喜歡跳舞",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null,
+      "example": false
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "我喜歡跳舞 (Wǒ xǐhuan tiàowǔ) translates to \"I like dancing\" or \"I like to dance\" in English.\n\nThat's wonderful! Dancing is a fantastic activity. It's a great way to express yourself, have fun, and get some exercise.  Do you dance often? What kind of dance do you enjoy?  For example, ballet, hip-hop, jazz, salsa, ballroom, contemporary, or something else?",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "example": false,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]

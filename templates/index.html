@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>🌍 多人智慧旅遊聊天室</title>
+  <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+  <style>
+    body { font-family: "Microsoft JhengHei", sans-serif; background: #f0f2f5; padding: 20px; }
+    #chatbox { background: #fff; padding: 20px; max-width: 600px; margin: 0 auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+    #messages { list-style: none; padding: 0; max-height: 300px; overflow-y: auto; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 10px; }
+    #messages li { margin: 8px 10px; padding: 5px 10px; }
+    .user { color: #2c3e50; }
+    .ai { color: #0077cc; font-weight: bold; }
+    .system { color: gray; font-style: italic; }
+    input[type="text"] { width: 70%; padding: 8px; }
+    button { padding: 8px 12px; }
+  </style>
+</head>
+<body>
+  <div id="chatbox">
+    <h2>🌍 多人智慧旅遊聊天室</h2>
+    <label>使用者名稱：</label>
+    <input id="user_id" placeholder="輸入你的名稱">
+    <button onclick="connect()">連線</button>
+    <br><br>
+
+    <ul id="messages"></ul>
+
+    <input id="message" placeholder="輸入訊息..." autocomplete="off" onkeydown="if(event.key==='Enter') sendMessage()">
+    <button onclick="sendMessage()">送出</button>
+    <button onclick="sendAnalysis()">🧠 分析偏好</button>
+  </div>
+
+  <script>
+    let socket;
+
+    const params = new URLSearchParams(window.location.search);
+    const userIdFromURL = params.get("user_id");
+    if (userIdFromURL) {
+      document.getElementById("user_id").value = userIdFromURL;
+      document.getElementById("user_id").disabled = true;
+      connect();  // 自動連線
+    }
+
+    function connect() {
+      const user_id = document.getElementById("user_id").value.trim();
+      if (!user_id) return alert("請輸入使用者名稱");
+
+      socket = io(); // 與伺服器建立連線
+
+      socket.on("connect", () => {
+        socket.send(user_id);  // 傳送 user_id 給後端
+      });
+
+      socket.on("chat_message", function(data) {
+        const li = document.createElement("li");
+        li.innerHTML = `<span class="user">${data.user_id}：</span> ${data.message}`;
+        document.getElementById("messages").appendChild(li);
+        scrollToBottom();
+      });
+
+      socket.on("ai_response", function(data) {
+        const li = document.createElement("li");
+        li.innerHTML = `<span class="ai">🤖 AI：</span><br>${data.message}`;
+        document.getElementById("messages").appendChild(li);
+        scrollToBottom();
+      });
+    }
+
+    function sendMessage() {
+      const message = document.getElementById("message").value.trim();
+      const user_id = document.getElementById("user_id").value.trim();
+      if (!socket || !user_id || !message) return;
+
+      socket.emit("user_message", { user_id, message });
+      document.getElementById("message").value = "";
+    }
+
+    function sendAnalysis() {
+      const user_id = document.getElementById("user_id").value.trim();
+      if (!socket || !user_id) return;
+      socket.emit("user_message", { user_id, message: "分析" });
+    }
+
+    function scrollToBottom() {
+      const messages = document.getElementById("messages");
+      messages.scrollTop = messages.scrollHeight;
+    }
+  </script>
+</body>
+</html>

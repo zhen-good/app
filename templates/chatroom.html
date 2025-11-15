@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>行程聊天室 · 文青風</title>
+  <script src="https://cdn.socket.io/4.3.2/socket.io.min.js"></script>
+  <!-- 字體：清爽的無襯線 + 溫暖的襯線疊字體 -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Serif+TC:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      /* 調色：奶茶色系 + 墨綠點綴 */
+      --bg: #f6f3ef;
+      --paper: #fffdfa;
+      --ink: #2e2a25;
+      --muted: #7a6f66;
+      --accent: #3b7d6b;    /* 墨綠 */
+      --accent-2: #c7a17a;  /* 奶茶焦糖 */
+      --danger: #b85c5c;
+      --ring: rgba(59,125,107,.22);
+      --radius: 16px;
+      --shadow: 0 12px 30px rgba(46,42,37,.08);
+      --shadow-sm: 0 6px 16px rgba(46,42,37,.06);
+      --bubble-radius: 18px;
+      --line: #e8e0d7;
+      --chip: #efe7de;
+    }
+
+    *{ box-sizing: border-box; }
+    html,body{ height:100%; }
+    body{
+      margin:0; background:
+        radial-gradient(1200px 1200px at 10% -20%, #fff8f0 0%, rgba(255,255,255,0) 60%),
+        radial-gradient(1000px 1000px at 120% 20%, #f1f8f5 0%, rgba(255,255,255,0) 60%),
+        var(--bg);
+      color: var(--ink);
+      font-family: Inter, "Microsoft JhengHei", "Noto Sans TC", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      letter-spacing: .2px;
+    }
+
+    .wrap{ max-width: 920px; margin: 0 auto; padding: 24px 18px; min-height: 100dvh; display:grid; grid-template-rows: auto 1fr auto; gap: 16px; }
+
+    /* Header：手寫紙感 */
+    .header{
+      background: linear-gradient(180deg, #fffdf8, #fffaf1);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      padding: 18px 16px;
+      display:flex; align-items:center; justify-content:space-between; gap: 12px;
+    }
+    .title{ display:flex; align-items:center; gap: 14px; }
+    .logo{ width: 42px; height: 42px; border-radius: 12px; display:grid; place-items:center; background: var(--paper); border:1px solid var(--line); box-shadow: var(--shadow-sm); font-weight:800; color: var(--accent); }
+    .title h1{ font-family: "Noto Serif TC", serif; font-weight:700; font-size: 20px; letter-spacing: .8px; margin:0; }
+    .title small{ color: var(--muted); display:block; margin-top: 2px; }
+
+    .actions{ display:flex; gap: 8px; }
+    .btn{
+      padding: 8px 12px; border-radius: 12px; border:1px solid var(--line); background: var(--paper); color: var(--ink);
+      font-weight:600; cursor:pointer; box-shadow: var(--shadow-sm);
+      transition: box-shadow .2s ease, transform .05s ease, background .2s ease;
+    }
+    .btn:hover{ box-shadow: var(--shadow); }
+    .btn:active{ transform: translateY(1px); }
+    .btn.accent{ background: #f0f6f3; border-color: #d8ebe4; color: var(--accent); }
+    .btn.danger{ background: #fff3f3; border-color: #ffd8d8; color: var(--danger); }
+
+    /* 面板（訊息紙） */
+    .panel{
+      background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display:grid; grid-template-rows: 1fr;
+      min-height: 60dvh; max-height: 70dvh; overflow:hidden;
+    }
+
+    #messages{ list-style:none; margin:0; padding: 16px; overflow-y:auto; scroll-behavior: smooth; }
+
+    /* 日期分隔籤 */
+    .sep{ text-align:center; margin: 10px 0 14px; }
+    .chip{ display:inline-block; padding: 6px 10px; background: var(--chip); color: var(--muted); border-radius: 999px; border:1px solid var(--line); font-size: 12px; }
+
+    /* 訊息泡泡：輕手感邊框 + 紙張陰影 */
+    .row{ display:flex; gap: 10px; align-items:flex-end; }
+    .msg{ max-width: 75%; display:grid; gap:6px; margin: 8px 0; }
+    .bubble{ background: #fffefb; border: 1px dashed #e6dccf; border-radius: var(--bubble-radius); padding: 10px 12px; box-shadow: var(--shadow-sm); white-space: pre-wrap; word-break: break-word; }
+    .meta{ font-size: 12px; color: var(--muted); display:flex; align-items:center; gap:8px; }
+    .avatar{ width: 34px; height: 34px; border-radius: 10px; display:grid; place-items:center; font-weight:700; background:#faf6ef; border:1px solid var(--line); }
+
+    .user .bubble{ background: #fffdfa; border-style: solid; border-color:#e7dccb; }
+    .ai .bubble{ background: #f5fbf7; border-color:#d6ebdf; }
+    .trip .bubble{ background: #fff8ed; border-color:#f0e0c9; }
+
+    .right{ justify-content:flex-end; }
+    .right .msg{ margin-left:auto; text-align:right; }
+
+    .timestamp{ font-variant-numeric: tabular-nums; }
+
+    /* Composer：溫和邊框、打字紙感 */
+    .composer{ display:grid; grid-template-columns: 1fr auto auto auto; gap: 10px; align-items:end; }
+    .field{ background: var(--paper); border:1px solid var(--line); border-radius: var(--radius); padding:10px; box-shadow: var(--shadow-sm); }
+    textarea{ width:100%; border:none; outline:none; resize:none; background:transparent; color:var(--ink); font-size: 15px; line-height:1.6; max-height: 180px; min-height: 44px; }
+    .hint{ font-size: 12px; color: var(--muted); margin-top:6px; }
+
+    .typing{ display:flex; align-items:center; gap:8px; color: var(--muted); font-size: 13px; }
+    .dots{ display:inline-flex; gap:3px; }
+    .dot{ width:6px; height:6px; background:#c8b8a6; border-radius:999px; animation: blink 1.2s infinite; }
+    .dot:nth-child(2){ animation-delay:.2s }
+    .dot:nth-child(3){ animation-delay:.4s }
+    @keyframes blink{ 0%,80%,100%{ opacity:.35 } 40%{ opacity:1 } }
+
+    @media (max-width: 760px){
+      .wrap{ padding: 16px 12px; }
+      .msg{ max-width: 86%; }
+      .composer{ grid-template-columns: 1fr auto auto; }
+      .btn.text{ display:none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <header class="header" role="banner">
+      <div class="title">
+        <div class="logo">旅</div>
+        <div>
+          <h1>行程聊天室</h1>
+          <small id="trip-sub">溫度、紙感與旅途靈感 ✍️</small>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn" id="btn-rename" title="變更暱稱">變更暱稱</button>
+        <button class="btn accent" id="btn-analyze" title="分析偏好">分析</button>
+        <button class="btn danger" id="btn-clear" title="清除 AI 記憶">清除記憶</button>
+      </div>
+    </header>
+
+    <!-- Messages -->
+    <section class="panel" aria-live="polite">
+      <ul id="messages"></ul>
+    </section>
+
+    <!-- Composer -->
+    <footer class="composer" role="form">
+      <div class="field">
+        <textarea id="message" placeholder="寫下你此刻的靈感，Enter 送出 · Shift+Enter 換行"></textarea>
+        <div class="hint">小提示：輸入「分析」讓 AI 根據偏好調整行程；或輸入「顯示行程」查看節點。</div>
+      </div>
+      <button class="btn accent" id="btn-send">送出</button>
+      <button class="btn text" id="btn-trip">顯示行程</button>
+    </footer>
+  </div>
+
+  <script>
+    // ====== 初始使用者 ======
+    const tripId = "{{ trip_id }}";
+    let userId = localStorage.getItem("user_id");
+    if (!userId){
+      userId = prompt("請輸入你的名稱或ID");
+      if (userId) localStorage.setItem("user_id", userId);
+      else{ alert("請輸入名稱才能進入聊天室！"); throw new Error("未輸入 user_id"); }
+    }
+
+    // ====== 連線與房間 ======
+    const socket = io();
+    socket.emit("join", { user_id: userId, trip_id: tripId });
+
+    // ====== DOM ======
+    const $messages = document.getElementById('messages');
+    const $input = document.getElementById('message');
+    const $btnSend = document.getElementById('btn-send');
+    const $btnAnalyze = document.getElementById('btn-analyze');
+    const $btnClear = document.getElementById('btn-clear');
+    const $btnRename = document.getElementById('btn-rename');
+    const $btnTrip = document.getElementById('btn-trip');
+
+    // ====== 事件 ======
+    socket.on("chat_message", (data)=>{ hideTyping(); addMessage({ who:'user', name:data.user_id, text:data.message }); });
+    socket.on("ai_response", (data)=>{ hideTyping(); addMessage({ who:'ai', name:'AI', text:data.message }); });
+    socket.on("trip", ({ nodes })=>{
+      hideTyping();
+      const chunks = formatNodesForChat(nodes||[]);
+      if (!chunks.length) return addMessage({ who:'trip', name:'行程', text:'（沒有可顯示的節點）' });
+      for (const txt of chunks) addMessage({ who:'trip', name:'行程', text:txt });
+    });
+    //讓使用者回答問題的選項
+    // 監聽後端丟來的單題事件
+    socket.on("ai_question", (payload) => {
+    console.group("[ai_question] 收到事件");
+    console.log("payload =", payload);
+    console.groupEnd();
+
+    // 安全解構
+    const { text, options } = payload || {};
+    if (!text || !Array.isArray(options)) return;
+
+    // ✅ 正確呼叫 addMessage：丟「一個物件」進去
+    addMessage({ who: 'ai', name: '顧問', text });
+
+    // 建立按鈕群組容器
+    const wrap = document.createElement("div");
+    wrap.className = "option-wrap";
+
+    options.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.className = "chip";
+      btn.textContent = `${opt.choice}) ${opt.label}`;
+
+      btn.onclick = () => {
+        const chosen = `${opt.choice}) ${opt.label}`;
+        addMessage({ who: 'user', name: userId, text: chosen });
+
+        socket.emit("user_message", {
+          user_id: userId,
+          trip_id: tripId,
+          message: chosen
+        });
+
+        wrap.querySelectorAll("button").forEach(b => b.disabled = true);
+      };
+
+      wrap.appendChild(btn);
+    });
+
+    document.getElementById("messages").appendChild(wrap);
+    scrollToBottom();
+  });
+
+
+    $btnSend.addEventListener('click', sendMessage);
+    $btnAnalyze.addEventListener('click', ()=> sendRaw('分析'));
+    $btnClear.addEventListener('click', clearMemory);
+    $btnRename.addEventListener('click', renameUser);
+    $btnTrip && $btnTrip.addEventListener('click', ()=> requestTrip());
+
+    // Enter 送出 / Shift+Enter 換行
+    $input.addEventListener('keydown', (e)=>{ if(e.key==='Enter' && !e.shiftKey){ e.preventDefault(); sendMessage(); } });
+    $input.addEventListener('input', autoResize); autoResize();
+
+    function autoResize(){ $input.style.height='auto'; $input.style.height = Math.min($input.scrollHeight, 180) + 'px'; }
+
+    function now(){ return new Date().toLocaleTimeString('zh-TW', { hour: '2-digit', minute: '2-digit' }); }
+
+    function addMessage({ who, name, text }){
+      const li = document.createElement('li');
+      const isMe = (who==='user' && name===userId);
+      const row = document.createElement('div'); row.className = 'row' + (isMe ? ' right' : '');
+      const msg = document.createElement('div'); msg.className = `msg ${who}`;
+
+      const avatar = document.createElement('div'); avatar.className = 'avatar'; avatar.textContent = (who==='ai')? '🤖' : (who==='trip'? '🗺️' : name.slice(0,2));
+      const meta = document.createElement('div'); meta.className = 'meta'; meta.innerHTML = `<strong>${escapeHTML(who==='ai'?'AI':name)}</strong> · <span class="timestamp">${now()}</span>`;
+      const bubble = document.createElement('div'); bubble.className = 'bubble'; bubble.textContent = text;
+
+      msg.appendChild(meta); msg.appendChild(bubble);
+      if (isMe){ row.appendChild(msg); row.appendChild(avatar); }
+      else{ row.appendChild(avatar); row.appendChild(msg); }
+
+      li.appendChild(row); $messages.appendChild(li); scrollToBottom();
+    }
+
+    function scrollToBottom(){ $messages.scrollTop = $messages.scrollHeight; }
+    function escapeHTML(s){ return (s==null?'':String(s)).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+
+    function sendMessage(){
+      const msg = $input.value.trim(); if(!msg) return;
+      addMessage({ who:'user', name:userId, text:msg });
+      showTyping();
+      socket.emit('user_message', { user_id:userId, trip_id:tripId, message:msg });
+      $input.value=''; autoResize();
+    }
+
+    function sendRaw(text){ addMessage({ who:'user', name:userId, text }); showTyping(); socket.emit('user_message', { user_id:userId, trip_id:tripId, message:text }); }
+    function requestTrip(){ showTyping(); socket.emit('user_message', { user_id:userId, trip_id:tripId, message:'行程' }); }
+
+    // ====== Typing ======
+    let typingRow=null;
+    function showTyping(){ hideTyping(); const li=document.createElement('li'); const row=document.createElement('div'); row.className='row'; const avatar=document.createElement('div'); avatar.className='avatar'; avatar.textContent='🤖'; const wrap=document.createElement('div'); wrap.className='msg ai'; const meta=document.createElement('div'); meta.className='meta'; meta.innerHTML = `<strong>AI</strong> · <span class="timestamp">輸入中…</span>`; const bubble=document.createElement('div'); bubble.className='bubble'; bubble.innerHTML = `<span class="typing">正在思考 <span class="dots"><span class="dot"></span><span class="dot"></span><span class="dot"></span></span></span>`; wrap.appendChild(meta); wrap.appendChild(bubble); row.appendChild(avatar); row.appendChild(wrap); li.appendChild(row); $messages.appendChild(li); typingRow=li; scrollToBottom(); }
+    function hideTyping(){ if(typingRow){ typingRow.remove(); typingRow=null; } }
+
+    function clearMemory(){ if(!confirm('確定要清除 AI 的記憶嗎？這將無法復原。')) return; socket.emit('clear_memory', { user_id:userId, trip_id:tripId }); addMessage({ who:'ai', name:'AI', text:'記憶已清除 ✅' }); }
+    function renameUser(){ const name = prompt('輸入新的暱稱', userId); if(!name || name.trim()===userId) return; userId=name.trim(); localStorage.setItem('user_id', userId); addMessage({ who:'ai', name:'AI', text:`暱稱已更新為「${userId}」。` }); }
+
+    // ====== 行程 nodes → 聊天純文字（修正 /n → 換行） ======
+    function formatNodesForChat(nodes){
+      const days = normalizeToDaySlots(nodes);
+      const MAX_LEN = 1200; const chunks=[]; let buf='';
+      for (const d of days){
+        const header = `第 ${safe(d.day)} 天` + (d.city?` · ${safe(d.city)}`:'') + (d.date?`（${safe(d.date)}）`:'');
+        pushLine(`📅 ${header}`);
+        for (const s of d.slots || []){
+          pushLine(`  🕒 ${safe(s.slot)}  ${safe(s.start)}–${safe(s.end)}`);
+          for (const p of s.places || []){
+            const meta=[ p.stay_minutes?`${p.stay_minutes} 分`:'', p.rating?`⭐ ${p.rating}`:'' ].filter(Boolean).join('｜');
+            pushLine(`    • ${safe(p.name)}${meta?`（${meta}）`:''}`);
+            if (p.address) pushLine(`      📍 ${safe(p.address)}`);
+          }
+        }
+        pushLine('');
+      }
+      if (buf.trim()) chunks.push(buf.trim());
+      return chunks;
+      function pushLine(line){ if ((buf + line + '\n').length > MAX_LEN){ chunks.push(buf.trimEnd()); buf=''; } buf += line + '\n'; }
+      function safe(s){ return (s==null)?'':String(s).replace(/\s+/g,' ').trim(); }
+    }
+
+    function normalizeToDaySlots(nodes){
+      if (Array.isArray(nodes) && nodes.length && 'slots' in nodes[0]) return nodes;
+      const byDay = new Map();
+      for (const n of (nodes||[])){
+        const day = n?.day ?? 0; if (!byDay.has(day)) byDay.set(day, []); byDay.get(day).push(n);
+      }
+      const out = [];
+      for (const [day, arr] of byDay.entries()){
+        arr.sort((a,b)=> String(a.start||'').localeCompare(String(b.start||'')));
+        const slots = arr.map(n=>({ slot:n.slot||'', start:n.start||'', end:n.end||'', places: Array.isArray(n.places)? n.places: [] }));
+        out.push({ day, date:'', city:'', slots });
+      }
+      out.sort((a,b)=> (a.day||0)-(b.day||0));
+      return out;
+    }
+  </script>
+</body>
+</html>
