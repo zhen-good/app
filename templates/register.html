@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>註冊頁面</title>
+</head>
+<body>
+  <h2>使用者註冊</h2>
+  <form id="registerForm">
+    <input type="email" id="email" placeholder="Email" required><br>
+    <input type="password" id="password" placeholder="密碼" required><br>
+    <button type="submit">註冊</button>
+    <a href="/login_page">已有帳號</a>
+  </form>
+  <p id="message"></p>
+
+  <script>
+  document.getElementById("registerForm").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    const res = await fetch("/register", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, password })
+    });
+
+    const result = await res.json();
+
+    if (res.ok) {
+      document.getElementById("message").innerText = "✅ 註冊成功，將轉跳至登入頁...";
+      setTimeout(() => {
+        window.location.href = "/login_page";  // ✅ 這裡要對應 login_page 路由
+      }, 1000);
+    } else {
+      document.getElementById("message").innerText = "❌ " + (result.detail || "註冊失敗");
+    }
+  });
+</script>
+
+</body>
+</html>
