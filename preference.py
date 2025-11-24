@@ -48,7 +48,7 @@ def extract_preferences_from_text(text: str) -> dict:
 
 
 # 📂 根據 trip_id 載入相關使用者的偏好
-def load_preferences_by_trip_id(trip_id: str) -> dict:
+def load_preferences_by_trip_id(trip_id_ob) -> dict:
     """
     根據 trip_id 載入該行程中所有使用者的偏好
     回傳格式：{"prefer": [...], "avoid": [...]}
@@ -57,16 +57,17 @@ def load_preferences_by_trip_id(trip_id: str) -> dict:
     from bson import ObjectId
 
     try:
-        trip_id_ob = ObjectId(trip_id)
         
         # 先找到該行程的所有成員
         trip = trips_collection.find_one({"_id": trip_id_ob})
+        print("看一下trip_id的資料型態:",type(trip_id_ob))
         if not trip:
-            print(f"❌ 找不到 trip_id: {trip_id} 的行程")
+            print(f"❌ 找不到 trip_id: {trip_id_ob} 的行程")
             return {"prefer": [], "avoid": []}
         
-        members = trip.get("member", [])
-        print(f"🔍 行程 {trip_id} 的成員：{members}")
+        members = trip.get("members", [])
+        print(f"🔍 行程 {trip_id_ob} 的成員：{members}")
+        
         
         # 合併所有成員的偏好
         all_prefer = []
@@ -74,10 +75,12 @@ def load_preferences_by_trip_id(trip_id: str) -> dict:
         
         for member_id in members:
             doc = preferences_collection.find_one({"user_id": member_id})
+            print("member_id的資料型態，應該要是string",type(member_id))
+            
             if doc:
                 # ✅ 改成查询正确的字段结构
                 trips_data = doc.get("trips", {})
-                trip_prefs = trips_data.get(trip_id, {})  # 根据 trip_id 查询
+                trip_prefs = trips_data.get(str(trip_id_ob), {})  # 根据 trip_id 查询
                 
                 member_prefer = trip_prefs.get("prefer", [])
                 member_avoid = trip_prefs.get("avoid", [])
@@ -94,7 +97,7 @@ def load_preferences_by_trip_id(trip_id: str) -> dict:
             "avoid": list(set(all_avoid))
         }
         
-        print(f"✅ 行程 {trip_id} 合併偏好：{combined_preferences}")
+        print(f"✅ 行程 {trip_id_ob} 合併偏好：{combined_preferences}")
         return combined_preferences
         
     except Exception as e:
@@ -106,17 +109,17 @@ def load_preferences_by_trip_id(trip_id: str) -> dict:
 
 
 # 💾（可選）一次性覆蓋所有資料
-def save_user_preferences(data: dict):
-    print("⚠️ 警告: `save_user_preferences` 函式未根據新的結構完全重寫，請謹慎使用。")
-    for user_id, val in data.items():
-        preferences_collection.update_one(
-            {"user_id": user_id},
-            {"$set": {
-                "form.preferences": list(set(val.get("prefer", []))),
-                "form.exclude": list(set(val.get("avoid", [])))
-            }},
-            upsert=False
-        )
+# def save_user_preferences(data: dict):
+#     print("⚠️ 警告: `save_user_preferences` 函式未根據新的結構完全重寫，請謹慎使用。")
+#     for user_id, val in data.items():
+#         preferences_collection.update_one(
+#             {"user_id": user_id},
+#             {"$set": {
+#                 "form.preferences": list(set(val.get("prefer", []))),
+#                 "form.exclude": list(set(val.get("avoid", [])))
+#             }},
+#             upsert=False
+#         )
 
 
 def update_user_preferences(

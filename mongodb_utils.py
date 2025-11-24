@@ -110,7 +110,7 @@ def add_to_itinerary(trip_id, day, start, end, location, after_place=None):
 import re
 from typing import Dict, Any, Optional
 
-def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, Any]:
+def delete_from_itinerary(trip_id_ob, day: int, place_name: str) -> Dict[str, Any]:
     """
     依新結構刪除地點：
     - 先以 day 找到該日 head_id，沿著 nodes 的鏈結（next_id）走訪
@@ -119,7 +119,7 @@ def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, 
       * 若 places == 1：刪除整個 node，並修補鏈結
     回傳：{"message": "..."} 或 {"error": "..."}
     """
-    trip = trips_collection.find_one({"trip_id": trip_id}, {"days": 1, "nodes": 1})
+    trip = trips_collection.find_one({"trip_id": trip_id_ob}, {"days": 1, "nodes": 1})
     if not trip:
         return {"error": "找不到行程"}
 
@@ -169,7 +169,7 @@ def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, 
     # 情況 A：node 內還有多個 place → 只刪該 place
     if len(places) > 1:
         res = trips_collection.update_one(
-            {"trip_id": trip_id, "nodes.node_id": node_id},
+            {"trip_id": trip_id_ob, "nodes.node_id": node_id},
             {"$pull": {"nodes.$.places": {"name": target_place_name}}}
         )
         if res.modified_count == 0:
@@ -180,7 +180,7 @@ def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, 
     # B-1) 若刪的是 head：更新 days.$.head_id = next_id
     if prev_id is None:
         res1 = trips_collection.update_one(
-            {"trip_id": trip_id, "days.day": int(day)},
+            {"trip_id": trip_id_ob, "days.day": int(day)},
             {"$set": {"days.$.head_id": next_id}}
         )
         if res1.matched_count == 0:
@@ -189,7 +189,7 @@ def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, 
     # B-2) 若刪的是中間/尾端：把 prev.next_id → 指向 next_id
     else:
         res2 = trips_collection.update_one(
-            {"trip_id": trip_id, "nodes.node_id": prev_id},
+            {"trip_id": trip_id_ob, "nodes.node_id": prev_id},
             {"$set": {"nodes.$.next_id": next_id}}
         )
         if res2.matched_count == 0:
@@ -197,7 +197,7 @@ def delete_from_itinerary(trip_id: str, day: int, place_name: str) -> Dict[str, 
 
     # B-3) 從 nodes 陣列移除整個 node
     res3 = trips_collection.update_one(
-        {"trip_id": trip_id},
+        {"trip_id": trip_id_ob},
         {"$pull": {"nodes": {"node_id": node_id}}}
     )
     if res3.modified_count == 0:

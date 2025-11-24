@@ -5,12 +5,10 @@ import re
 from bson import ObjectId
 from langchain_core.messages import messages_from_dict
 from langchain_openai import ChatOpenAI
-from config import MEMORY_FOLDER, OPENAI_API_KEY
+from config import MEMORY_FOLDER, OPENAI_API_KEY,user_chains
 from langchain.chains.conversation.base import ConversationChain
 from langchain.memory import ConversationBufferMemory
 from mongodb_utils import trips_collection
-
-user_chains = []
 
 def get_user_chain(user_id: str):
     if user_id not in user_chains:

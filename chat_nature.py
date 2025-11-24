@@ -2,6 +2,7 @@ import json
 import os
 import re
 
+from bson import ObjectId
 from langchain_openai import ChatOpenAI
 
 from mongodb_utils import get_user_state
@@ -61,7 +62,8 @@ def should_extract_preferences(text: str) -> bool:
 def handle_extra_chat(user_id: str, trip_id: str, user_message: str):
     # 1) 讀現有偏好
     chat_llm = get_chat_llm_openai()
-    pref = load_preferences_by_trip_id(trip_id=trip_id) or {}
+    trip_id_ob = ObjectId(trip_id)
+    pref = load_preferences_by_trip_id(trip_id_ob) or {}
     def j(key): return "、".join(sorted(set(pref.get(key, [])))) or "無"
 
     st = get_user_state(trip_id, user_id)
@@ -84,7 +86,7 @@ def handle_extra_chat(user_id: str, trip_id: str, user_message: str):
                 prefer_add=extracted.get("prefer"),
                 avoid_add=extracted.get("avoid")
             ) or {}
-            pref = load_preferences_by_trip_id(trip_id=trip_id) or {}
+            pref = load_preferences_by_trip_id(trip_id_ob) or {}
             just_updated = True
 
     # 3) 建 Prompt 丟 Chat LLM（引導）

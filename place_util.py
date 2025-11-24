@@ -100,50 +100,59 @@ def get_opening_hours(place_name: str) -> str:
         print(f"❌ 獲取 '{place_name}' 營業時間時發生未知錯誤：{e}")
         return f"獲取『{place_name}』營業時間時發生錯誤。"
 
-def search_places_by_tag(query: str) -> list:
+import requests
+import json
+from typing import List, Dict, Any
+
+# 假設 GOOGLE_API_KEY 已經在外部環境或配置文件中設置
+
+def search_places_by_tag(query: str) -> List[Dict[str, Any]]:
     """
     使用 Google Places API (Text Search) 搜尋地點。
     返回一個地點列表，每個地點包含名稱、地址等基本資訊。
     """
+    # ⚠️ 注意：此處應確保 GOOGLE_API_KEY 已載入
+    # print("確認是否有成功呼叫api", GOOGLE_API_KEY) 
 
-    print("確認是否有成功呼叫api",GOOGLE_API_KEY)
     url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
     params = {
         "query": query,
-        "key": GOOGLE_API_KEY,
+        "key": GOOGLE_API_KEY,  # 假設此變數在全局範圍可用
         "language": "zh-TW",
-        "region": "tw", # 仍然保留 region 參數作為偏好
+        "region": "tw", 
     }
 
     try:
-        response = requests.get(url, params=params)
+        response = requests.get(url, params=params, timeout=10) # 💡 增加 timeout
         response.raise_for_status() # 如果狀態碼是 4xx 或 5xx，會拋出 HTTPError
 
-        result = response.json() # 嘗試解析 JSON
+        result = response.json() 
 
         if result.get("status") == "OK":
             print(f"✅ 成功從 Google 地圖搜尋到 {len(result.get('results', []))} 個結果，查詢：'{query}'")
             return result.get("results", [])
+            
         elif result.get("status") == "ZERO_RESULTS":
             print(f"🔍 Google 地圖搜尋結果：'{query}' 無結果。")
             return []
+            
         else:
             # 處理其他 API 狀態，例如 "OVER_QUERY_LIMIT", "REQUEST_DENIED" 等
-            print("google_api_key",GOOGLE_API_KEY)
-            error_message = result.get("error_message", "未知錯誤")
+            error_message = result.get("error_message", "未知 API 錯誤")
+            # ❗ 移除 API Key 輸出： print("google_api_key", GOOGLE_API_KEY)
             print(f"❌ Google 地圖搜尋 API 錯誤：狀態碼 {result.get('status')} - {error_message}")
             return []
 
+    except requests.exceptions.Timeout:
+        print(f"❌ 呼叫 Google Maps Text Search API 超時。")
+        return []
     except requests.exceptions.RequestException as e:
-        # 捕捉所有 requests 相關的錯誤 (連線失敗, 超時, HTTP 錯誤等)
         print(f"❌ 呼叫 Google Maps Text Search API 時發生網路錯誤：{e}")
         return []
     except json.JSONDecodeError:
-        # 捕捉 JSON 解析錯誤
-        print(f"❌ Google Maps Text Search API 回應不是有效的 JSON：{response.text[:100]}...")
+        print(f"❌ Google Maps Text Search API 回應不是有效的 JSON。")
         return []
     except Exception as e:
-        # 捕捉其他未預期的錯誤
         print(f"❌ Google Maps 查詢時發生未知錯誤：{e}")
         return []
 

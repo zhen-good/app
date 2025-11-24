@@ -15,6 +15,7 @@ import string, random, os
 from friend import friends_bp
 from register import auth_bp
 import socket 
+from config import user_chains
 
 # 🔧 工具與模組
 from chat_manager import (
@@ -178,7 +179,7 @@ def handle_user_message(data):
         
         if raw_message in accept_keywords:
             try:
-                placement_result = decide_location_placement(user_id, trip_id, place_to_add)
+                placement_result = decide_location_placement(user_id, trip_id_ob, place_to_add)
                 day = placement_result.get("day")
                 period = placement_result.get("period")
                 
@@ -341,7 +342,7 @@ def handle_user_message(data):
                 try:
                     success = False
                     if current_rec["type"] == "delete":
-                        success = delete_from_itinerary(trip_id, current_rec["day"], current_rec["ori_place"])
+                        success = delete_from_itinerary(trip_id_ob, current_rec["day"], current_rec["ori_place"])
                         if success:
                             emit("ai_response", {"message": f"✅ 已從 Day{current_rec['day']} 刪除「{current_rec['ori_place']}」。"}, room=trip_id)
                         else:
@@ -400,10 +401,8 @@ def handle_user_message(data):
                 pending_recommendations.pop(user_id)
             if user_id in pending_add_location:
                 pending_add_location.pop(user_id)
-
-            user_chains = get_user_chain(user_id)
             
-            recommendations_list = analyze_active_users_preferences(user_chains, trip_id_ob)
+            recommendations_list = analyze_active_users_preferences(user_id,user_chains, trip_id_ob)
             
             if recommendations_list:
                 pending_recommendations[user_id] = recommendations_list
@@ -486,9 +485,9 @@ def handle_user_message(data):
         if prefs["prefer"] or prefs["avoid"]:
             update_user_preferences(
                 user_id=user_id,
+                trip_id=trip_id,
                 prefer_add=prefs.get("prefer"),
                 avoid_add=prefs.get("avoid"),
-                trip_id=trip_id
             )
             
             if user_id in pending_recommendations:
@@ -497,7 +496,7 @@ def handle_user_message(data):
                 pending_add_location.pop(user_id)
                 
             print(f"✅ 已更新 {user_id} 的偏好：", prefs)
-            return
+            
     except Exception as e:
         print(f"⚠️ 偏好擷取失敗：{e}")
         traceback.print_exc()
@@ -510,7 +509,7 @@ def handle_user_message(data):
         }, room=trip_id)
         print("處理一般對話")
         
-        out = handle_extra_chat(user_id, trip_id, raw_message)
+        out = handle_extra_chat(user_id, trip_id_ob, raw_message)
         
         if out:
             print("成功")
