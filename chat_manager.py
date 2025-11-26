@@ -140,8 +140,8 @@ def analyze_active_users_preferences(user_id: str, user_chains: dict, trip_id_ob
 
 **階段三：處理衝突景點**
 1. 檢查行程中與「避免」偏好衝突的景點
-2. 提供「修改」建議
-3. 提供「刪除」建議（嚴重衝突）
+2. 提供「modify」建議（提供替代景點）
+3. 提供「delete」建議（嚴重衝突時）
 
 === ⚠️ 重要規則 ===
 - {day_limit_rule}
@@ -151,7 +151,7 @@ def analyze_active_users_preferences(user_id: str, user_chains: dict, trip_id_ob
 - 優先處理「避免」偏好衝突
 - search_keywords 要具體且差異化
 
-=== 📋 建議格式 ===
+=== 📋 建議格式（只允許 modify 和 delete）===
 ```json
 [
     {{
@@ -163,25 +163,10 @@ def analyze_active_users_preferences(user_id: str, user_chains: dict, trip_id_ob
         "recommendation_type": "direct"
     }},
     {{
-        "type": "add",
-        "day": 1,
-        "search_keywords": ["日式老屋咖啡廳"],
-        "reason": "直接符合使用者喜歡「咖啡廳」的偏好，使用日式老屋特色避免重複",
-        "recommendation_type": "direct"
-    }},
-    {{
-        "type": "add",
-        "day": 1,
-        "search_keywords": ["海景玻璃屋咖啡廳"],
-        "reason": "直接符合使用者喜歡「咖啡廳」的偏好，使用海景特色避免重複",
-        "recommendation_type": "direct"
-    }},
-    {{
-        "type": "add",
+        "type": "delete",
         "day": 2,
-        "search_keywords": ["獨立書店"],
-        "reason": "從「喜歡咖啡廳」推測使用者喜歡放鬆文青氛圍，建議嘗試書店",
-        "recommendation_type": "inferred"
+        "place": "原景點名稱",
+        "reason": "此景點嚴重與使用者避免的XX偏好衝突"
     }}
 ]
 ```
