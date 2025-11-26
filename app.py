@@ -349,11 +349,35 @@ def handle_user_message(data):
                             emit("ai_response", {"message": f"❗ 刪除「{current_rec['place']}」時發生錯誤。"}, room=trip_id)
                             
                     elif current_rec["type"] == "add":
-                        success = add_to_itinerary(trip_id, current_rec["day"], "??:??", "??:??", current_rec["ori_place"], after_place=None)
-                        if success:
-                            emit("ai_response", {"message": f"✅ 已將「{current_rec['place']}」新增到 Day{current_rec['day']}。"}, room=trip_id)
+    
+                        # 1. 從 current_rec 提取必要的參數 (所有參數都來自 _process_add_recommendation 的輸出)
+                        # 由於我們已經在 _process_add_recommendation 中限制了 new_places 只有一個景點，
+                        # 我們可以直接取用它。
+                        new_places = current_rec.get("new_places", [])
+                        if not new_places:
+                            emit("ai_response", {"message": "❗ 新增景點時發生錯誤：景點資料缺失。"}, room=trip_id)
+                            return
+                            
+                        place_to_add = new_places[0]
+                        
+                        day_to_add = current_rec.get("recommend_day")
+                        action_to_use = current_rec.get("recommend_action")
+                        node_id_ref_to_use = current_rec.get("recommend_node_id")
+                        
+                        # 2. 呼叫修正後的 add_to_itinerary 函式
+                        result = add_to_itinerary(
+                            trip_id_ob, 
+                            day_to_add, 
+                            place_to_add, # 傳遞完整的景點資料
+                            action_to_use, 
+                            node_id_ref_to_use # 傳遞 LLM 建議的插入位置參考
+                        )
+
+                        # 3. 處理結果
+                        if result and "error" not in result:
+                            emit("ai_response", {"message": f"✅ 已將「{place_to_add.get('name')}」新增到 Day{day_to_add}。"}, room=trip_id)
                         else:
-                            emit("ai_response", {"message": f"❗ 新增「{current_rec['place']}」時發生錯誤。"}, room=trip_id)
+                            emit("ai_response", {"message": f"❗ 新增「{place_to_add.get('name')}」時發生錯誤：{result.get('error', '未知錯誤')}。"}, room=trip_id)
 
                     if success:
                         recommendations.pop(0)
@@ -577,10 +601,29 @@ def generate_recommendation_prompt(recommendation: dict) -> str:
         )
 
     if rec_type == "add":
+        print("看一下要新增的景點是哪一個", recommendation)
+        
+        # 1. 提取唯一的推薦景點
+        new_places = recommendation.get("new_places", [])
+        
+        # 🚨 確保 new_places 至少有一個元素 (由於上游邏輯的保證，理論上只有一個)
+        if not new_places:
+            place_info = "（景點資訊缺失）"
+            place_name = "（建議地點）"
+        else:
+            # 取出列表中的第一個（也是唯一一個）景點物件
+            place_data = new_places[0] 
+            
+            # 使用 _present_place_for_prompt 格式化詳細資訊
+            place_info = _present_place_for_prompt(place_data)
+            place_name = place_data.get("name", "（建議地點）")
+
+        # 2. 構建給使用者的提示訊息
         return (
-            f"🌟 **建議新增景點**\n\n"
-            f"📍 建議新增至：Day{day}\n"
-            f"✅ 建議原因：{reason_text}\n\n"
+            f"🌟 **建議新增景點：{place_name}**\n\n"
+            f"📍 建議新增至：Day{day} 的 {recommendation.get('recommend_slot', '合適時段')}\n"
+            f"✅ 建議原因：{reason_text}\n"
+            f"ℹ️ 詳細資訊：{place_info}\n\n"
             f"💭 詳細說明：此類型更符合您的偏好並補齊當段主題。\n\n"
             f"您是否接受這個建議？請回覆「是」或「否」。"
         )
